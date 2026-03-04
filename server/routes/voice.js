@@ -31,11 +31,11 @@ router.post('/outbound', (req, res) => {
   // - interruptibleで顧客が割り込み可能
   connect.conversationRelay({
     url: `wss://${wsUrl}/conversation-relay`,
-    voice: 'ja-JP-Standard-B',
+    voice: 'ja-JP-Chirp3-HD-Aoede',
     language: 'ja-JP',
     transcriptionProvider: 'google',
     ttsProvider: 'google',
-    welcomeGreeting: `Twilioクレジットです。${customerName}さまでよろしいですか？`,
+    welcomeGreeting: `もしもし。こちらは、Twilioクレジットです。お時間よろしいでしょうか？`,
     interruptible: 'true',
   })
 

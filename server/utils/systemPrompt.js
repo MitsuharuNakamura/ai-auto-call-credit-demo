@@ -21,7 +21,7 @@ export function generateSystemPrompt(customerName) {
 4. 入金予定日を聞けたら通話終了する
 
 ## 未払いの状況について
-1. ２万３千円の未払いがある
+1. 2万3千円の未払いがある
 2. 期日を１か月過ぎている
 
 ## ルール
